@@ -14,10 +14,9 @@ Ingeniería de Requerimientos (ISR-401) · 4.º nivel, paralelo B · Unidad 2 ·
 | Integrante | Nombre y apellidos | Rol en el proyecto | Aportes verificables (archivos, secciones o artefactos) |
 | --- | --- | --- | --- |
 | 1 | CHAVARRIA CUENCA TAHINY MEL | [PENDIENTE] | [PENDIENTE] |
-| 2 | ROCHINA ROCHINA | [PENDIENTE] | [PENDIENTE] |
+| 2 | RIVERA SUAREZ JONATHAN JAVIER | [PENDIENTE] | [PENDIENTE] |
 | 3 | [PENDIENTE] | [PENDIENTE] | [PENDIENTE] |
-| 4 | [PENDIENTE] | [PENDIENTE] | [PENDIENTE] |
-| 5 (si corresponde) | [PENDIENTE] | [PENDIENTE] | [PENDIENTE] |
+
 
 ## Índice de carpetas y archivos
 
@@ -38,9 +37,9 @@ Ingeniería de Requerimientos (ISR-401) · 4.º nivel, paralelo B · Unidad 2 ·
 | --- | --- |
 | Archivo principal | `PFC/E1/main.tex` |
 | Salida | `PFC/E1/main.pdf` |
-| Compilador y versión | [PENDIENTE: motor LaTeX y versión comprobados] |
+| Compilador y versión | LateX Overleaf |
 | Distribución y paquetes | [PENDIENTE: distribución, paquetes y demás dependencias externas del proyecto] |
-| Bibliografía | `PFC/E1/referencias.bib`, estilo IEEE. [PENDIENTE: herramienta y versión empleadas] |
+| Bibliografía | `PFC/E1/referencias.bib`, estilo IEEE. |
 | Recursos locales | [PENDIENTE: rutas de archivos incluidos, figuras y otros recursos usados al compilar] |
 
 1. Clonar el repositorio público con `git clone <URL_COMPLETA_DEL_REPOSITORIO>` y abrir la carpeta clonada.
@@ -53,7 +52,7 @@ Ingeniería de Requerimientos (ISR-401) · 4.º nivel, paralelo B · Unidad 2 ·
 
 4. Probar la secuencia desde un clon limpio. Comprobar que el PDF se genera sin desbordes ni referencias sin resolver (`??`) y que las figuras y tablas están numeradas y citadas en el texto.
 
-**Otros documentos del repositorio:** [PENDIENTE: si existen, añadir por cada documento su carpeta, compilador, archivo principal, comandos en orden y dependencias].
+
 
 ## Estructura del documento E1
 
