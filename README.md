@@ -15,7 +15,7 @@ Ingeniería de Requerimientos (ISR-401) · 4.º nivel, paralelo B · Unidad 2 ·
 | --- | --- | --- | --- |
 | 1 | CHAVARRIA CUENCA TAHINY MEL | [PENDIENTE] | [PENDIENTE] |
 | 2 | RIVERA SUAREZ JONATHAN JAVIER | [PENDIENTE] | [PENDIENTE] |
-| 3 | [PENDIENTE] | [PENDIENTE] | [PENDIENTE] |
+| 3 | ROCHINA ROCHINA FREDDY DAVID | [PENDIENTE] | [PENDIENTE] |
 
 
 ## Índice de carpetas y archivos
