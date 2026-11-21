@@ -5,7 +5,7 @@ Ingeniería de Requerimientos (ISR-401) · 4.º nivel, paralelo B · Unidad 2 ·
 
 **Proyecto:** SGMC - Sistema de gestión de Microcréditos  
 **Organización:** Universidad Técnica Estatal de Quevedo
-**Repositorio público:** `ISR401-SGMC` · [PENDIENTE: sigla y URL completa de GitHub]  
+**Repositorio público:** `ISR401-SGMC` · https://github.com/TahinyMel/ISR401-SGMC/tree/main 
 **Cierre:** sábado 21 de noviembre de 2026, 23:59
 
 ## Integrantes
