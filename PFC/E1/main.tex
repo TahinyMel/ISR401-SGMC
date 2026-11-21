@@ -1,0 +1,250 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[hidelinks]{hyperref}
+
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\pendiente}[1]{\textit{[Pendiente: #1]}}
+
+\title{TA-PFC-E1 · Proyecto Fin de Curso\\
+Visión, alcance, partes interesadas, contexto y plan de elicitación\\
+Sistema de Gestión de Microcréditos (SGMC)}
+\author{Universidad Técnica Estatal de Quevedo\\
+Facultad de Ciencias de la Computación · Carrera de Software\\
+Ingeniería de Requerimientos (ISR-401)\\[0.6em]
+\pendiente{nombres completos de los integrantes}}
+\date{SPA 2026--2027}
+
+\begin{document}
+\maketitle
+
+\section{Organización y problema}
+\textbf{Organización:} \pendiente{nombre oficial y ubicación en Quevedo o Los Ríos}.
+
+\textbf{Problema acordado:} \pendiente{proceso actual, dificultad observada, impacto y acuerdo con la organización sobre el problema abordable con software}.
+
+\textbf{Respaldo:} \pendiente{identificadores de la carta de aceptación firmada y del registro del primer contacto en \path{evidencias/MANIFIESTO.md}}.
+
+\section{Visión y alcance}
+La delimitación del SGMC se enmarca en el proceso de ingeniería de requisitos de la norma 29148 \cite{iso29148}. El alcance se valida con los roles relacionados con el proceso de microcrédito.
+
+\subsection{Declaración de visión}
+\pendiente{usuarios previstos, necesidad, propósito del sistema y beneficio esperado para la organización}.
+
+\subsection{Objetivos de negocio}
+\noindent\begin{tabularx}{\linewidth}{@{}lYYYY@{}}
+\toprule
+ID & Objetivo & Indicador y línea base & Meta y plazo & Verificación \\
+\midrule
+O1 & \pendiente{objetivo} & \pendiente{medición} & \pendiente{meta} & \pendiente{fuente} \\
+O2 & \pendiente{objetivo} & \pendiente{medición} & \pendiente{meta} & \pendiente{fuente} \\
+O3 & \pendiente{objetivo} & \pendiente{medición} & \pendiente{meta} & \pendiente{fuente} \\
+\bottomrule
+\end{tabularx}
+
+\subsection{Alcance y restricciones}
+\textbf{Incluye:} \pendiente{procesos, actores y funciones acordados}.
+
+\textbf{Excluye:} \pendiente{procesos y funciones fuera del límite acordado}.
+
+\textbf{Restricciones:} \pendiente{restricciones conocidas, su origen y su efecto sobre el alcance}.
+
+\section{Partes interesadas}
+La tabla~\ref{tab:partes} registra las partes interesadas por rol y su estrategia de participación.
+
+\begin{table}[htbp]
+\centering
+\caption{Registro de partes interesadas}
+\label{tab:partes}
+\small
+\begin{tabularx}{\linewidth}{@{}lYYYYY@{}}
+\toprule
+ID & Rol & Interés & Influencia & Disponibilidad & Estrategia \\
+\midrule
+P1 & \pendiente{rol} & --- & --- & --- & --- \\
+P2 & \pendiente{rol} & --- & --- & --- & --- \\
+P3 & \pendiente{rol} & --- & --- & --- & --- \\
+P4 & \pendiente{rol} & --- & --- & --- & --- \\
+P5 & \pendiente{rol} & --- & --- & --- & --- \\
+P6 & \pendiente{rol} & --- & --- & --- & --- \\
+P7 & \pendiente{rol} & --- & --- & --- & --- \\
+P8 & \pendiente{rol} & --- & --- & --- & --- \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Matriz poder--interés}
+\IfFileExists{figuras/matriz-poder-interes.pdf}{%
+  La figura~\ref{fig:matriz} presenta la ubicación de los roles por poder e interés.
+  \begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.85\linewidth,height=0.65\textheight,keepaspectratio]{figuras/matriz-poder-interes.pdf}
+    \caption{Matriz poder--interés}
+    \label{fig:matriz}
+  \end{figure}
+}{\pendiente{incorporar la matriz exportada y guardar su fuente editable en \texttt{modelos/}}.}
+
+\pendiente{justificar la ubicación de los roles y su relación con las estrategias de participación}.
+
+\section{Contexto}
+
+\subsection{Diagrama de contexto}
+\IfFileExists{figuras/diagrama-contexto.pdf}{%
+  La figura~\ref{fig:contexto} muestra el límite del sistema y sus intercambios con las entidades externas.
+  \begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\linewidth,height=0.65\textheight,keepaspectratio]{figuras/diagrama-contexto.pdf}
+    \caption{Diagrama de contexto del SGMC}
+    \label{fig:contexto}
+  \end{figure}
+}{\pendiente{incorporar el diagrama exportado y guardar su fuente editable en \texttt{modelos/}}.}
+
+\pendiente{explicar el límite acordado, las entidades externas y los intercambios identificados}.
+
+\subsection{Ocho perspectivas del sílabo}
+La tabla~\ref{tab:perspectivas} vincula cada perspectiva con un hallazgo de la organización y su respaldo.
+
+\begin{table}[htbp]
+\centering
+\caption{Perspectivas del sílabo y hallazgos}
+\label{tab:perspectivas}
+\begin{tabularx}{\linewidth}{@{}lYYY@{}}
+\toprule
+N.º & Perspectiva del sílabo & Hallazgo & Fuente o evidencia \\
+\midrule
+1 & \pendiente{nombre} & --- & --- \\
+2 & \pendiente{nombre} & --- & --- \\
+3 & \pendiente{nombre} & --- & --- \\
+4 & \pendiente{nombre} & --- & --- \\
+5 & \pendiente{nombre} & --- & --- \\
+6 & \pendiente{nombre} & --- & --- \\
+7 & \pendiente{nombre} & --- & --- \\
+8 & \pendiente{nombre} & --- & --- \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Plan de elicitación}
+
+\subsection{Técnicas y justificación por rol}
+La elicitación parte de las fuentes de requisitos y del conocimiento que se quiere recuperar~\cite{pohl}. Se propone usar entrevistas para explorar decisiones y excepciones, un cuestionario para contrastar la frecuencia percibida de dificultades y observación para documentar la secuencia del proceso. La asignación a roles requiere validación con la organización.
+La tabla~\ref{tab:tecnicas} relaciona los roles con la información que se busca, la técnica seleccionada y el instrumento correspondiente.
+
+\begin{table}[htbp]
+\centering
+\caption{Selección de técnicas de elicitación}
+\label{tab:tecnicas}
+\small
+\noindent\begin{tabularx}{\linewidth}{@{}lYYYY@{}}
+\toprule
+Rol & Información buscada & Técnica & Justificación por fuente y tipo de conocimiento & Instrumento \\
+\midrule
+P1 & --- & --- & --- & --- \\
+P2 & --- & --- & --- & --- \\
+P3 & --- & --- & --- & --- \\
+P4 & --- & --- & --- & --- \\
+P5 & --- & --- & --- & --- \\
+P6 & --- & --- & --- & --- \\
+P7 & --- & --- & --- & --- \\
+P8 & --- & --- & --- & --- \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Cronograma de sesiones}
+\textit{[Pendiente: registrar una fila por sesión planificada en la tabla~\ref{tab:sesiones}]}.
+
+\begin{table}[htbp]
+\centering
+\caption{Cronograma de sesiones de elicitación}
+\label{tab:sesiones}
+\begin{tabularx}{\linewidth}{@{}YYYYY@{}}
+\toprule
+Fecha y duración & Roles convocados & Técnica e instrumento & Responsable & Objetivo de la sesión \\
+\midrule
+\pendiente{fecha} & --- & --- & --- & --- \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Instrumentos}
+\begin{itemize}
+  \item Guion de entrevista: \pendiente{confirmar que el documento de preguntas existente constituye el guion completo e indicar su ruta definitiva}.
+  \item Cuestionario: \path{instrumentos/Cuestionario.md} (borrador por validar).
+  \item Guía de observación o de taller: \path{instrumentos/Guia_observacion.md} (borrador por validar).
+\end{itemize}
+
+\section{Ética y tratamiento de datos}
+
+\subsection{Modelo de consentimiento informado}
+\textbf{Propósito.} La sesión académica busca comprender el proceso de microcrédito para definir el alcance del SGMC. Se recogerán notas sobre las actividades y decisiones del rol.
+
+\textbf{Participación.} La participación es voluntaria. Se puede omitir preguntas o finalizar la sesión. El informe identificará las respuestas por código de rol. Se solicitará autorización específica para grabar.
+
+\textbf{Custodia.} Los registros identificables se guardarán en la carpeta institucional privada. \pendiente{completar y comunicar el responsable, el canal de contacto y el plazo de conservación antes de aplicar el formulario}.
+
+\textbf{Acepta participar:} Sí / No. \quad
+\textbf{Autoriza grabación:} Sí / No / No aplica.
+
+\textbf{Fecha y firma:} \rule{5cm}{0.4pt}.
+
+\subsection{Anonimización y custodia}
+El tratamiento de datos se enmarca en la legislación ecuatoriana y su reglamento~\cite{lopdp,reg904}. Para gestionar riesgos sobre la confidencialidad e integridad de las evidencias se toma como referencia ISO/IEC 27001. Para delimitar el acceso a los registros privados se considera la orientación sobre controles de ISO/IEC 27002~\cite{iso27001,iso27002}.
+\pendiente{detallar cómo el equipo recopilará, anonimizará y revisará la información, y quién administrará el acceso a la carpeta institucional privada}.
+
+\par La carta firmada y las evidencias con datos personales se custodian en la carpeta institucional privada compartida con el docente. El repositorio incluye las evidencias anonimizadas y el manifiesto. Cada registro indica nombre del archivo, fecha, duración y huella SHA-256.
+
+\section{Gestión del proyecto}
+La planificación del equipo, la comunicación con las partes interesadas y el seguimiento de los riesgos se organizan con apoyo del marco de gestión del PMBOK~\cite{pmbok}.
+
+\subsection{Roles del equipo}
+\pendiente{asignar a cada integrante un rol, las responsabilidades correspondientes y los productos a su cargo}.
+
+\subsection{Cronograma hasta la semana 17}
+\textit{[Pendiente: completar la tabla~\ref{tab:proyecto} con las actividades, los hitos y sus responsables hasta la semana 17]}.
+
+\begin{table}[htbp]
+\centering
+\caption{Cronograma del proyecto}
+\label{tab:proyecto}
+\begin{tabularx}{\linewidth}{@{}lYYY@{}}
+\toprule
+Semana & Actividad & Responsable & Hito o producto \\
+\midrule
+\pendiente{semana} & --- & --- & --- \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Comunicación con la organización}
+\pendiente{definir los roles de contacto, el canal, la frecuencia, los responsables y el registro de acuerdos}.
+
+\subsection{Registro de riesgos}
+\textit{[Pendiente: completar la tabla~\ref{tab:riesgos} con riesgos específicos de la organización y del proyecto]}.
+
+\begin{table}[htbp]
+\centering
+\caption{Registro de riesgos del proyecto}
+\label{tab:riesgos}
+\small
+\begin{tabularx}{\linewidth}{@{}lYYYYY@{}}
+\toprule
+ID & Riesgo y causa & Probabilidad & Impacto & Respuesta & Responsable \\
+\midrule
+R1 & \pendiente{riesgo} & --- & --- & --- & --- \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Declaración de uso de inteligencia artificial}
+Se utilizó ChatGPT mediante Codex como apoyo para preparar la plantilla LaTeX, los borradores de instrumentos y la integración de las referencias. \pendiente{completar la versión consultable, registrar otros usos si los hubo y describir cómo el equipo verificó lo obtenido}.
+
+\bibliographystyle{IEEEtran}
+\bibliography{referencias}
+
+\end{document}
