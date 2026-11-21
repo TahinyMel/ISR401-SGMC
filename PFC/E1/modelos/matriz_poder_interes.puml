@@ -1,0 +1,17 @@
+' Matriz poder-interes de las partes interesadas del SGMC
+' Version preliminar (a validar en la entrevista)
+' Eje vertical: poder/influencia. Eje horizontal: interes.
+@startuml matriz_poder_interes
+skinparam shadowing false
+skinparam defaultFontName Arial
+
+rectangle "PODER ALTO · INTERÉS BAJO\n<b>Mantener satisfecho</b>\n\n• Rectorado (autoridad institucional)\n• Auditoría interna\n• Unidad de TIC" as Q1 #FFF4E0
+rectangle "PODER ALTO · INTERÉS ALTO\n<b>Gestionar de cerca</b>\n\n• Comité de crédito\n• Dirección Financiera / Tesorería\n• Analista de crédito" as Q2 #FDE2E2
+rectangle "PODER BAJO · INTERÉS BAJO\n<b>Monitorear</b>\n\n• Garante\n• Asesoría jurídica" as Q3 #EEEEEE
+rectangle "PODER BAJO · INTERÉS ALTO\n<b>Mantener informado</b>\n\n• Solicitante / beneficiario\n• Gestor de cobranza" as Q4 #E3F1E3
+
+Q1 -[hidden]right- Q2
+Q3 -[hidden]right- Q4
+Q1 -[hidden]down- Q3
+Q2 -[hidden]down- Q4
+@enduml
