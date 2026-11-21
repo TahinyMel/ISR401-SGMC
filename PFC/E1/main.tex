@@ -423,24 +423,84 @@ Semana & Actividad & Responsable & Hito o producto \\
 \pendiente{definir los roles de contacto, el canal, la frecuencia, los responsables y el registro de acuerdos}.
 
 \subsection{Registro de riesgos}
-\textit{[Pendiente: completar la tabla~\ref{tab:riesgos} con riesgos específicos de la organización y del proyecto]}.
+La tabla~\ref{tab:riesgos} presenta los riesgos identificados a partir
+del diagrama de contexto y de la matriz poder--interés. La probabilidad
+y el impacto son estimaciones cualitativas preliminares, sujetas a
+revisión durante la elicitación. Los responsables son integrantes del
+equipo y las áreas mencionadas en las respuestas participan en la validación.
 
 \begin{table}[htbp]
 \centering
 \caption{Registro de riesgos del proyecto}
 \label{tab:riesgos}
 \small
-\begin{tabularx}{\linewidth}{@{}lYYYYY@{}}
+\begin{tabularx}{\linewidth}{@{}lYllYl@{}}
 \toprule
-ID & Riesgo y causa & Probabilidad & Impacto & Respuesta & Responsable \\
+ID & Riesgo y efecto & Prob. & Impacto & Respuesta prevista & Responsable \\
 \midrule
-R1 & \pendiente{riesgo} & --- & --- & --- & --- \\
+R1 & La disponibilidad limitada del Comité de crédito o de Tesorería
+puede retrasar la validación de las resoluciones y los desembolsos.
+& Media & Alto
+& Acordar sesiones breves por adelantado y enviar los casos de revisión.
+Registrar los asuntos sin validar y darles seguimiento.
+& Tahiny \\
+\addlinespace
+
+R2 & La falta de acuerdo sobre cómo recibir información de pagos del
+banco o consultar a la central de riesgo puede ampliar el alcance o
+retrasar el diseño.
+& Media & Alto
+& Validar con TIC y Tesorería el canal, los datos y la frecuencia de
+cada intercambio. Documentar la modalidad autorizada antes de diseñar
+la interfaz.
+& Freddy \\
+\addlinespace
+
+R3 & Un pago sin referencia suficiente, duplicado o asociado a otro
+crédito puede generar saldos incorrectos.
+& Media & Alto
+& Revisar con Tesorería y el gestor de cobranza cómo identificar,
+conciliar y corregir pagos. Probar estos casos con registros anonimizados.
+& Freddy \\
+\addlinespace
+
+R4 & Una orden de desembolso podría confundirse con su confirmación,
+lo que distorsionaría el estado del crédito y los asientos remitidos.
+& Media & Alto
+& Validar con Tesorería los estados y la evidencia de confirmación.
+Revisar con el área financiera cuándo corresponde registrar el asiento.
+& Freddy \\
+\addlinespace
+
+R5 & El uso de expedientes, reportes crediticios o comprobantes reales
+en la elicitación puede exponer datos personales.
+& Media & Alto
+& Solicitar ejemplos anonimizados, limitar el acceso a la carpeta
+institucional privada y revisar los archivos antes de publicarlos.
+& Jonathan \\
+\addlinespace
+
+R6 & Una bitácora incompleta puede impedir que Auditoría interna
+reconstruya una resolución, un desembolso o una corrección de pago.
+& Media & Alto
+& Validar con Auditoría qué eventos y datos deben quedar registrados.
+Revisar la trazabilidad mediante un caso de principio a fin.
+& Freddy \\
+\addlinespace
+
+R7 & Una tabla de amortización poco clara o un recordatorio basado en
+un estado desactualizado puede confundir al beneficiario sobre su
+próxima cuota.
+& Media & Medio
+& Revisar la tabla con solicitantes o beneficiarios y validar con el
+gestor de cobranza en qué estados corresponde enviar recordatorios.
+& Jonathan \\
 \bottomrule
 \end{tabularx}
 \end{table}
 
 \section{Declaración de uso de inteligencia artificial}
-Se utilizó ChatGPT mediante Codex como apoyo para preparar la plantilla LaTeX, los borradores de instrumentos y la integración de las referencias. \pendiente{completar la versión consultable, registrar otros usos si los hubo y describir cómo el equipo verificó lo obtenido}.
+Se utilizó ChatGPT mediante Codex como apoyo para preparar la plantilla LaTeX, los borradores de instrumentos y la integración de las referencias. También, se utilizó para buscar y corregir faltas ortográficas en el documento,  
 
 \bibliographystyle{IEEEtran}
 \bibliography{referencias}
