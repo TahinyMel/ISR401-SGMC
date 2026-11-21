@@ -1,4 +1,4 @@
-# TA-PFC-E1 · Proyecto Fin de Curso · Entrega 1
+Proyecto Fin de Curso · Entrega 1
 
 Universidad Técnica Estatal de Quevedo (UTEQ) · Facultad de Ciencias de la Computación · Carrera de Software  
 Ingeniería de Requerimientos (ISR-401) · 4.º nivel, paralelo B · Unidad 2 · SPA 2026–2027
