@@ -6,7 +6,7 @@ Ingeniería de Requerimientos (ISR-401) · 4.º nivel, paralelo B · Unidad 2 ·
 **Proyecto:** SGMC - Sistema de gestión de Microcréditos  
 **Organización:** Universidad Técnica Estatal de Quevedo
 **Repositorio público:** `ISR401-SGMC` · https://github.com/TahinyMel/ISR401-SGMC/tree/main 
-**Cierre:** sábado 21 de noviembre de 2026, 23:59
+**Cierre:** domingo 22 de noviembre de 2026, 23:59
 
 ## Integrantes
 
@@ -97,25 +97,3 @@ Completar `PFC/E1/evidencias/MANIFIESTO.md` con al menos dos evidencias. Las fil
 
 Custodiar la carta firmada y las evidencias privadas en una carpeta institucional de una cuenta `@uteq.edu.ec`, compartida con el docente. Publicar solo las evidencias anonimizadas y el manifiesto. Mantener en la carpeta privada los datos personales de terceros, incluidas cédulas, teléfonos, correos personales, audios, videos y consentimientos firmados.
 
-## Criterios de entrega
-
-- [ ] **GitHub.** El repositorio público `ISR401-<SIGLA>` contiene el LaTeX, la bibliografía, las figuras, las fuentes editables, los instrumentos, las evidencias publicables, el manifiesto y el PDF compilado.
-- [ ] **P1 · SGA.** Subir únicamente un PDF de una página con los nombres de los estudiantes, el código y nombre de la tarea, la fecha límite y la URL completa del repositorio en una sola línea. Comprobar que la URL abre el repositorio público.
-- [ ] **P2 · Reproducibilidad.** Regenerar el PDF desde un clon limpio siguiendo las instrucciones del README.
-- [ ] **P3 · Plazo.** Publicar el contenido evaluable antes del cierre del sábado 21 de noviembre de 2026 a las 23:59. El contenido agregado después del cierre queda fuera de la evaluación.
-- [ ] **P4 · Integridad.** Confirmar la autoría propia, la correspondencia entre citas y fuentes, el respaldo original de las evidencias y la existencia de los artefactos descritos. Cada integrante debe poder explicar y modificar lo que aportó. El plagio verificado, cualquiera de los indicios graves G1–G6 o el contenido generado por IA presentado como propio implica cero.
-- [ ] **Historial y aportes.** El historial muestra trabajo sustantivo en al menos tres días distintos dentro del plazo. Menos de tres días o más del 50 % del contenido evaluable subido en las últimas 24 horas supone una penalización de 1,5 puntos. Si se supera el 80 % en ese período, la penalización indicada es de 3,0 puntos. La calificación individual depende del aporte verificable, la constancia y el desempeño presencial.
-- [ ] **Presentación y referencias.** El PDF emplea redacción técnica en tercera persona y citas IEEE verificadas. La declaración de IA figura en el documento. Si se omite, se descuentan 0,3 puntos. Un formato de referencias distinto de IEEE deja D6 en cero.
-
-El incumplimiento de un criterio de piso aplicable implica cero en la actividad. P5 no exige formativa vinculada para TA-PFC-E1.
-
-| Dimensión de la rúbrica | Peso |
-| --- | ---: |
-| D1 · Cumplimiento y completitud | 15 % |
-| D2 · Fundamentación conceptual | 15 % |
-| D3 · Desarrollo técnico y evidencia | 30 % |
-| D4 · Análisis crítico y calidad de los requisitos | 20 % |
-| D5 · Comunicación | 10 % |
-| D6 · Referencias, ética e integridad | 10 % |
-
-Fuente: guía y rúbrica UTEQ TA-PFC-E1, secciones 1 y 4–12.
