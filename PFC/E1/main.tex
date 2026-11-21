@@ -7,6 +7,7 @@
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage[hidelinks]{hyperref}
+\usepackage{float}
 
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 \newcommand{\pendiente}[1]{\textit{[Pendiente: #1]}}
@@ -81,15 +82,123 @@ P8 & \pendiente{rol} & --- & --- & --- & --- \\
 \subsection{Matriz poder--interés}
 \IfFileExists{figuras/matriz_poder_interes.png}{%
   La figura~\ref{fig:matriz} presenta la ubicación de los roles por poder e interés.
-  \begin{figure}[htbp]
+  \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\linewidth,height=0.65\textheight,keepaspectratio]{figuras/matriz_poder_interes.png}
     \caption{Matriz poder--interés}
     \label{fig:matriz}
   \end{figure}
-}{\pendiente{incorporar la matriz exportada y guardar su fuente editable en \texttt{modelos/}}.}
+}
+\paragraph{\textbf{Criterio de clasificación}.}
+La matriz preliminar de la figura~\ref{fig:matriz} ubica a las partes
+interesadas según dos criterios. El poder o influencia representa su
+capacidad para decidir, supervisar o condicionar aspectos del proyecto.
+El interés representa cuánto afecta el SGMC al trabajo habitual del
+rol o al servicio que recibe. La posición de cada rol orienta la
+frecuencia de comunicación y los temas en los que conviene solicitar
+su participación. La clasificación se revisará durante la elicitación.
 
-\pendiente{justificar la ubicación de los roles y su relación con las estrategias de participación}.
+\paragraph{Gestionar de cerca.}
+Estos roles tienen poder e interés altos. Se propone involucrarlos
+directamente en la elicitación y en la validación de los cambios que
+afecten el flujo de crédito.
+
+\begin{description}
+  \item[Comité de crédito.]
+  Su poder se deriva de la emisión de resoluciones sobre las
+  solicitudes evaluadas. Su interés es alto porque la información
+  que presenta el SGMC sustenta la revisión de cada caso. Se propone
+  validar con el comité qué información necesita para resolver, cómo
+  debe quedar registrada la decisión y qué tratamiento reciben
+  las excepciones.
+
+  \item[Dirección Financiera o Tesorería.]
+  Tiene influencia sobre la ejecución y confirmación del desembolso.
+  Su interés es alto porque las órdenes y confirmaciones del SGMC
+  deben corresponder con las operaciones financieras realizadas.
+  Se propone revisar con este rol los datos de la orden, la evidencia
+  de confirmación y el tratamiento de discrepancias.
+
+  \item[Analista de crédito.]
+  Su influencia proviene de la evaluación técnica que sirve de
+  insumo al comité. Su interés es alto por el uso directo de los
+  expedientes y el registro de informes. Se propone realizar
+  entrevistas y recorridos de casos para validar la información
+  necesaria, las devoluciones y el flujo de evaluación.
+\end{description}
+
+\paragraph{Mantener satisfecho.}
+Estos roles tienen influencia alta e interés relativamente menor
+en la operación cotidiana. Se propone consultarlos en los hitos en
+que sus decisiones o criterios puedan afectar al proyecto.
+
+\begin{description}
+  \item[Rectorado.]
+  Su posición refleja influencia sobre la orientación institucional
+  del proyecto. Su interés se concentra en los resultados generales
+  y en su alineación con las prioridades de la organización. Se
+  propone presentar resúmenes en los hitos y elevar las decisiones
+  de alcance que requieran respaldo institucional.
+
+  \item[Auditoría interna.]
+  Puede condicionar los requisitos de control y trazabilidad. Su
+  participación se concentra en la supervisión y revisión posterior
+  de las operaciones. Se propone validar con este rol el contenido
+  de los reportes de cartera y de la bitácora, así como los datos
+  necesarios para reconstruir una operación.
+
+  \item[Unidad de TIC.]
+  Su influencia se relaciona con la viabilidad técnica, los accesos
+  y las interfaces institucionales. Su interés se concentra en esas
+  condiciones técnicas. Se propone consultarla al definir el
+  despliegue, los permisos y la modalidad de intercambio con
+  los sistemas externos.
+\end{description}
+
+\paragraph{Mantener informado.}
+Estos roles tienen interés alto por el efecto del SGMC sobre su
+experiencia o trabajo, y menor influencia sobre las decisiones de
+alcance. La estrategia combina información oportuna y espacios de
+retroalimentación.
+
+\begin{description}
+  \item[Solicitante o beneficiario.]
+  Tiene interés directo en conocer el estado del trámite y entender
+  las cuotas. Su influencia sobre el alcance es limitada. Se propone
+  recoger su opinión mediante el cuestionario y revisar con usuarios
+  si la información de estado y la tabla de amortización resultan
+  comprensibles.
+
+  \item[Gestor de cobranza.]
+  Su interés proviene del seguimiento de cuotas, vencimientos y
+  pagos. La matriz le atribuye menor influencia sobre las decisiones
+  generales del proyecto. Se propone informarle de cambios en el
+  registro de pagos y solicitarle retroalimentación sobre la
+  información que necesita para dar seguimiento a los casos.
+\end{description}
+
+\paragraph{Monitorear.}
+Estos roles tienen poder e interés relativamente bajos en la
+operación habitual del SGMC. Se propone mantener un canal de
+contacto y convocarlos cuando un cambio afecte directamente sus
+responsabilidades.
+
+\begin{description}
+  \item[Garante.]
+  Su participación se concentra en proporcionar sus datos y aceptar
+  la garantía asociada a una solicitud. Tiene interés en comprender
+  ese compromiso e influencia limitada sobre el sistema. Se propone
+  consultarlo al revisar el registro de la aceptación y la claridad
+  de la información que recibe.
+
+  \item[Asesoría jurídica.]
+  Su intervención prevista se concentra en asuntos puntuales, como
+  las condiciones de garantía o la revisión de documentos. Su
+  posición refleja el grado de participación previsto en la gestión
+  cotidiana. Se propone solicitar su revisión cuando cambien los
+  documentos, las condiciones o el tratamiento de excepciones que
+  requieran criterio jurídico.
+\end{description}
 
 \section{Contexto}
 
@@ -102,9 +211,91 @@ P8 & \pendiente{rol} & --- & --- & --- & --- \\
     \caption{Diagrama de contexto del SGMC}
     \label{fig:contexto}
   \end{figure}
-}{\pendiente{incorporar el diagrama exportado y guardar su fuente editable en \texttt{modelos/}}.}
+}
 
-\pendiente{explicar el límite acordado, las entidades externas y los intercambios identificados}.
+\paragraph{Límite del sistema.}
+El límite del SGMC, representado por el círculo central de la
+figura~\ref{fig:contexto}, abarca la gestión de la información del
+microcrédito desde la recepción de la solicitud hasta el seguimiento de
+los pagos. Dentro de ese límite se registra la documentación del
+solicitante y del garante, se conserva el expediente, se incorpora el
+informe de evaluación y se registra la resolución del comité. El sistema
+también mantiene la información sobre el desembolso, la tabla de
+amortización y los pagos recibidos, y proporciona reportes de cartera
+y registros de actividad para supervisión.
+
+La evaluación crediticia corresponde al analista y la resolución al
+comité. La ejecución del desembolso corresponde a Tesorería, mientras
+que la entidad bancaria recibe los pagos por sus propios canales.
+La central de riesgo mantiene el historial crediticio y el sistema
+financiero-contable institucional recibe la información para la
+contabilización. El SGMC intercambia información con estas entidades
+para dar seguimiento al crédito y conservar la trazabilidad de las
+operaciones.
+
+\paragraph{Roles externos e intercambios de información.}
+Los siguientes roles están fuera del límite del software, aunque varios
+pertenecen a la organización:
+
+\begin{description}
+  \item[Solicitante o beneficiario.]
+  Entrega al SGMC la solicitud y los documentos que la respaldan.
+  Recibe el estado de la solicitud y, cuando corresponde, la tabla de
+  amortización para consultar las cuotas del crédito.
+
+  \item[Garante.]
+  Proporciona sus datos y la aceptación de la garantía. El ingreso de
+  esta información permite asociar la garantía con el expediente de
+  la solicitud correspondiente.
+
+  \item[Analista de crédito.]
+  Recibe del SGMC el expediente del solicitante para revisar la
+  documentación y efectuar la evaluación. Devuelve al sistema el
+  informe de evaluación, que queda disponible como insumo para
+  la decisión del comité.
+
+  \item[Comité de crédito.]
+  Recibe las solicitudes evaluadas y remite su resolución al SGMC.
+  El registro de la resolución permite vincular la decisión con el
+  expediente y actualizar el estado de la solicitud.
+
+  \item[Dirección Financiera o Tesorería.]
+  Recibe la orden de desembolso emitida por el SGMC y devuelve la
+  confirmación una vez ejecutada la operación. Este intercambio
+  permite distinguir una orden emitida de un desembolso confirmado.
+
+  \item[Auditoría interna.]
+  Recibe del SGMC los reportes de cartera y la bitácora. Los reportes
+  permiten revisar la situación de los créditos y la bitácora sirve
+  para examinar las operaciones registradas en el sistema.
+\end{description}
+
+\paragraph{Servicios y sistemas externos.}
+\begin{description}
+  \item[Servicio de correo institucional.]
+  Recibe del SGMC las notificaciones y los recordatorios de pago
+  destinados a los usuarios. El servicio cumple la función de entrega
+  de esos mensajes.
+
+  \item[Central de riesgo crediticio.]
+  Recibe del SGMC la consulta del historial y devuelve el reporte
+  crediticio. El reporte aporta información para la evaluación de la
+  solicitud por parte del analista.
+
+  \item[Entidad bancaria.]
+  Envía al SGMC la información sobre los pagos recibidos. Ese flujo
+  permite identificar los pagos y asociarlos con el crédito
+  correspondiente para su seguimiento.
+
+  \item[Sistema financiero-contable institucional.]
+  Recibe del SGMC los asientos de desembolso y cobro. El intercambio
+  permite trasladar la información de las operaciones crediticias
+  al sistema que lleva la contabilidad institucional.
+\end{description}
+
+Las flechas representan la dirección de los intercambios de
+información. El canal y el grado de automatización de cada intercambio
+se definirán al validar las interfaces con la organización.
 
 \subsection{Ocho perspectivas del sílabo}
 La tabla~\ref{tab:perspectivas} vincula cada perspectiva con un hallazgo de la organización y su respaldo.
