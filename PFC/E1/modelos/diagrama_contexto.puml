@@ -1,0 +1,37 @@
+' Diagrama de contexto del SGMC - Version preliminar (a validar en la entrevista)
+' Notacion: el sistema como un unico proceso; entidades externas alrededor;
+' cada flecha es un flujo de datos con nombre.
+@startuml diagrama_contexto
+left to right direction
+skinparam shadowing false
+skinparam defaultFontName Arial
+
+rectangle "SGMC\nSistema de Gestión\nde Microcréditos" as SGMC #EEF3FA
+
+actor "Solicitante /\nbeneficiario" as SOL
+actor "Garante" as GAR
+actor "Analista de\ncrédito" as ANA
+actor "Comité de\ncrédito" as COM
+actor "Dirección Financiera /\nTesorería" as TES
+actor "Auditoría\ninterna" as AUD
+node "Sistema financiero-\ncontable institucional" as SFC
+node "Entidad bancaria" as BAN
+node "Central de riesgo\ncrediticio" as CRC
+node "Servicio de correo\ninstitucional" as COR
+
+SOL --> SGMC : solicitud y documentos
+SGMC --> SOL : estado de solicitud,\ntabla de amortización
+GAR --> SGMC : datos y aceptación de garantía
+ANA --> SGMC : informe de evaluación
+SGMC --> ANA : expediente del solicitante
+SGMC --> COM : solicitudes evaluadas
+COM --> SGMC : resolución (aprobada / negada)
+SGMC --> TES : orden de desembolso
+TES --> SGMC : confirmación de desembolso
+SGMC --> SFC : asientos de desembolso y cobro
+BAN --> SGMC : registro de pagos recibidos
+SGMC --> CRC : consulta de historial
+CRC --> SGMC : reporte crediticio
+SGMC --> COR : notificaciones y recordatorios de pago
+SGMC --> AUD : reportes de cartera y bitácora
+@enduml
