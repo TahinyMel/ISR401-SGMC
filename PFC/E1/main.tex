@@ -8,6 +8,7 @@
 \usepackage{tabularx}
 \usepackage[hidelinks]{hyperref}
 \usepackage{float}
+\usepackage{longtable}
 
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 \newcommand{\pendiente}[1]{\textit{[Pendiente: #1]}}
@@ -608,20 +609,158 @@ La planificación del equipo, la comunicación con las partes interesadas y el s
 
 
 \subsection{Cronograma hasta la semana 17}
-\textit{[Pendiente: completar la tabla~\ref{tab:proyecto} con las actividades, los hitos y sus responsables hasta la semana 17]}.
 
-\begin{table}[htbp]
-\centering
-\caption{Cronograma del proyecto}
-\label{tab:proyecto}
-\begin{tabularx}{\linewidth}{@{}lYYY@{}}
+La tabla~\ref{tab:proyecto} presenta la planificación del proyecto
+SGMC desde su inicio hasta el cierre del curso. La semana 4 corresponde
+a la entrega E1. Las actividades de las semanas 1 a 3 representan la
+planificación inicial. Las fechas de las sesiones posteriores se
+acordarán con la organización según la disponibilidad de los roles
+convocados.
+
+\begingroup
+\small
+\begin{longtable}{@{}p{0.09\textwidth}p{0.39\textwidth}
+                      p{0.14\textwidth}p{0.28\textwidth}@{}}
+\caption{Cronograma del proyecto SGMC hasta la semana 17}
+\label{tab:proyecto}\\
 \toprule
-Semana & Actividad & Responsable & Hito o producto \\
+Semana & Actividad planificada & Responsable & Hito o producto esperado \\
 \midrule
-\pendiente{semana} & --- & --- & --- \\
+\endfirsthead
+
+\toprule
+Semana & Actividad planificada & Responsable & Hito o producto esperado \\
+\midrule
+\endhead
+
 \bottomrule
-\end{tabularx}
-\end{table}
+\endfoot
+
+1 & Definir la propuesta inicial del SGMC, distribuir las
+responsabilidades del equipo e identificar qué se necesita conocer
+del proceso de microcrédito.
+& Tahiny, con el equipo
+& Propuesta inicial y distribución de roles. \\
+\addlinespace
+
+2 & Establecer el primer contacto con la organización para acordar
+el problema que se estudiará y solicitar la carta de aceptación.
+& Tahiny
+& Registro del primer contacto y carta de aceptación para custodia
+institucional. \\
+\addlinespace
+
+3 & Preparar la visión, los objetivos de negocio y el alcance.
+Identificar los roles iniciales y preparar los instrumentos de
+elicitación y el modelo de consentimiento.
+& Tahiny, Jonathan y Freddy
+& Borradores de visión, alcance, registro de roles e instrumentos. \\
+\addlinespace
+
+4 & Consolidar la entrega E1. Revisar el diagrama de contexto,
+la matriz poder--interés, las ocho perspectivas y el plan de
+elicitación. Verificar el manifiesto y la compilación del PDF.
+& Tahiny, Jonathan y Freddy
+& Entrega E1, dos modelos editables y plan de elicitación. \\
+\addlinespace
+
+5 & Confirmar las sesiones, el acceso a ejemplos anonimizados y
+las condiciones de consentimiento. Ajustar los instrumentos
+según los roles que participarán.
+& Jonathan
+& Agenda acordada e instrumentos listos para aplicar. \\
+\addlinespace
+
+6 & Observar la revisión de expedientes con el Analista de crédito
+y entrevistar al Comité sobre los criterios de decisión, la
+resolución y las excepciones.
+& Jonathan, con Freddy
+& Registro anonimizado del flujo de solicitud, evaluación y
+resolución. \\
+\addlinespace
+
+7 & Revisar con Tesorería y el Gestor de cobranza la diferencia
+entre orden y confirmación de desembolso, así como el tratamiento
+de pagos duplicados o sin identificar.
+& Jonathan, con Freddy
+& Flujo documentado de desembolso y pagos, con sus excepciones. \\
+\addlinespace
+
+8 & Aplicar el cuestionario a solicitantes o beneficiarios.
+Consultar a garantes sobre la aceptación de la garantía.
+Solicitar revisión de Asesoría jurídica si surgen dudas sobre
+documentos o condiciones.
+& Jonathan
+& Respuestas anonimizadas y necesidades de información por rol. \\
+\addlinespace
+
+9 & Consultar a la Unidad de TIC y a Auditoría interna sobre
+permisos, bitácora, reportes y canales autorizados para
+intercambiar datos con los sistemas externos.
+& Freddy, con Jonathan
+& Registro de restricciones técnicas, necesidades de auditoría
+e intercambios por confirmar. \\
+\addlinespace
+
+10 & Consolidar los hallazgos de elicitación y contrastarlos con
+el diagrama de contexto, la matriz y las ocho perspectivas.
+Actualizar el alcance y registrar los puntos que requieren acuerdo.
+& Freddy, con Tahiny
+& Modelos actualizados y registro de asuntos por resolver. \\
+\addlinespace
+
+11 & Redactar requisitos para solicitudes, garantías, evaluación,
+resoluciones, desembolsos y pagos. Vincular cada requisito con
+su fuente y con el objetivo de negocio correspondiente.
+& Freddy, con Jonathan
+& Borrador de requisitos con trazabilidad a fuentes y objetivos. \\
+\addlinespace
+
+12 & Especificar las reglas de acceso, la trazabilidad de
+operaciones y los intercambios externos. Definir criterios
+verificables para los requisitos prioritarios.
+& Freddy
+& Requisitos de control e intercambio con criterios de aceptación. \\
+\addlinespace
+
+13 & Priorizar y revisar los requisitos con el Comité, Tesorería
+y el Analista. Comunicar al Rectorado las decisiones de alcance
+que requieran respaldo institucional.
+& Tahiny, con Freddy
+& Requisitos priorizados y acuerdos de alcance documentados. \\
+\addlinespace
+
+14 & Validar casos representativos de solicitud incompleta,
+resolución, desembolso pendiente de confirmación y pago sin
+identificar. Revisar con usuarios la claridad del estado del
+trámite y de la tabla de amortización.
+& Jonathan, con Freddy
+& Registro de validación y ajustes a los requisitos. \\
+\addlinespace
+
+15 & Incorporar las correcciones acordadas. Verificar que alcance,
+modelos, requisitos y criterios de aceptación sean consistentes.
+Actualizar el registro de riesgos.
+& Tahiny, Jonathan y Freddy
+& Especificación revisada, trazabilidad actualizada y riesgos
+reevaluados. \\
+\addlinespace
+
+16 & Preparar la documentación final y la exposición. Revisar
+las referencias, el manifiesto, los aportes de cada integrante
+y la compilación desde un clon limpio.
+& Tahiny, Jonathan y Freddy
+& Documentación reproducible y exposición preparada. \\
+\addlinespace
+
+17 & Presentar el proyecto y cerrar los pendientes según las
+indicaciones de la asignatura. Consolidar la versión final y
+confirmar la custodia de las evidencias privadas.
+& Tahiny, Jonathan y Freddy
+& Entrega final del PFC y registro de cierre. \\
+
+\end{longtable}
+\endgroup
 
 \subsection{Comunicación con la organización}
 \pendiente{definir los roles de contacto, el canal, la frecuencia, los responsables y el registro de acuerdos}.
