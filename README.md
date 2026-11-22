@@ -31,7 +31,7 @@ Ingeniería de Requerimientos (ISR-401) · 4.º nivel, paralelo B · Unidad 2 ·
 | `PFC/E1/evidencias/` | Evidencias anonimizadas y `MANIFIESTO.md` de las evidencias privadas. |
 | `PFC/E1/main.pdf` | PDF compilado del documento E1. |
 
-## Compilación reproducible
+## Instrucciones de compilación
 
 
 
