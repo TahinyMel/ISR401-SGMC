@@ -89,8 +89,8 @@ Guardar las fuentes editables en `PFC/E1/modelos/` en el formato utilizado (`.qe
 
 | Modelo | Fuente editable | Figura exportada |
 | --- | --- | --- |
-| Diagrama de contexto | [PENDIENTE: ruta real] | [PENDIENTE: ruta real] |
-| Matriz poder–interés | [PENDIENTE: ruta real] | [PENDIENTE: ruta real] |
+| Diagrama de contexto | [`PFC/E1/modelos/diagrama_contexto.puml`](PFC/E1/modelos/diagrama_contexto.puml) | [`PFC/E1/figuras/diagrama_contexto.png`](PFC/E1/figuras/diagrama_contexto.png) |
+| Matriz poder–interés | [`PFC/E1/modelos/matriz_poder_interes.puml`](PFC/E1/modelos/matriz_poder_interes.puml) | [`PFC/E1/figuras/matriz_poder_interes.png`](PFC/E1/figuras/matriz_poder_interes.png) |
 
 ## Manifiesto de evidencias
 
