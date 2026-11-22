@@ -6,10 +6,12 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{tabularx}
-\usepackage[hidelinks]{hyperref}
+
 \usepackage{float}
 \usepackage{longtable}
+\usepackage[hidelinks,hypertexnames=false]{hyperref}
 
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1\linewidth}}
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 \newcommand{\pendiente}[1]{\textit{[Pendiente: #1]}}
 
@@ -59,18 +61,24 @@ Las metas se proponen para el piloto. La organización deberá validar su viabil
 \section{Partes interesadas}
 
 La tabla~\ref{tab:partes} presenta los diez roles identificados en la
-matriz poder--interés preliminar. La disponibilidad de cada rol se
+matriz poder--interés preliminar. La disponibilidad (Disp.) de cada rol se
 confirmará al coordinar las sesiones de elicitación.
 
-\begin{table}[H]
-\centering
-\caption{Registro de partes interesadas}
-\label{tab:partes}
+\begingroup
 \small
-\begin{tabularx}{\linewidth}{@{}lYYYYY@{}}
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{@{}L{.055}L{.17}L{.19}L{.095}L{.105}L{.26}@{}}
+\caption{Registro de partes interesadas}\label{tab:partes}\\
 \toprule
-ID & Rol & Interés & Influencia & Disponibilidad & Estrategia de participación \\
+ID & Rol & Interés & Influencia & Disp. & Estrategia de participación \\
 \midrule
+\endfirsthead
+\toprule
+ID & Rol & Interés & Influencia & Disp. & Estrategia de participación \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
 
 P1 & Comité de crédito
 & Alto. Resuelve las solicitudes evaluadas.
@@ -131,9 +139,8 @@ P10 & Asesoría jurídica
 & Baja & Por confirmar
 & Monitorear. Consultar cuando cambien las condiciones o los documentos de garantía. \\
 
-\bottomrule
-\end{tabularx}
-\end{table}
+\end{longtable}
+\endgroup
 
 \subsection{Matriz poder--interés}
 \IfFileExists{figuras/matriz_poder_interes.png}{%
@@ -263,7 +270,7 @@ responsabilidades.
   La figura~\ref{fig:contexto} muestra el límite del sistema y sus intercambios con las entidades externas.
   \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.9\linewidth,height=0.65\textheight,keepaspectratio]{E1/figuras/diagrama_contexto.png}
+    \includegraphics[width=0.9\linewidth,height=0.65\textheight,keepaspectratio]{figuras/diagrama_contexto.png}
     \caption{Diagrama de contexto del SGMC}
     \label{fig:contexto}
   \end{figure}
@@ -361,15 +368,21 @@ diagrama de contexto, la matriz poder--interés y el alcance propuesto.
 La última columna indica qué aspectos requieren confirmación con la
 organización durante la elicitación.
 
-\begin{table}[H]
-\centering
-\caption{Ocho perspectivas del contexto del SGMC}
-\label{tab:perspectivas}
+\begingroup
 \small
-\begin{tabularx}{\linewidth}{@{}p{0.17\linewidth}YY@{}}
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{@{}L{.16}L{.40}L{.38}@{}}
+\caption{Ocho perspectivas del contexto del SGMC}\label{tab:perspectivas}\\
 \toprule
 Perspectiva & Análisis del SGMC & Respaldo y aspecto por validar \\
 \midrule
+\endfirsthead
+\toprule
+Perspectiva & Análisis del SGMC & Respaldo y aspecto por validar \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
 
 1. Uso
 & El solicitante entrega documentos y consulta el estado del trámite
@@ -447,9 +460,8 @@ de base para reconstruir las operaciones que revisa Auditoría interna.
 Tesorería y Auditoría los identificadores, los permisos y los eventos
 que debe registrar la bitácora. \\
 
-\bottomrule
-\end{tabularx}
-\end{table}
+\end{longtable}
+\endgroup
 
 \section{Plan de elicitación}
 
@@ -463,15 +475,21 @@ El cuestionario recogerá respuestas comparables sobre la experiencia
 de los solicitantes. Se emplearán casos anonimizados cuando la sesión
 requiera revisar expedientes o comprobantes.
 
-\begin{table}[H]
-\centering
-\caption{Técnicas de elicitación y justificación por rol}
-\label{tab:tecnicas}
+\begingroup
 \small
-\begin{tabularx}{\linewidth}{@{}lYYY@{}}
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{@{}L{.06}L{.24}L{.44}L{.19}@{}}
+\caption{Técnicas de elicitación y justificación por rol}\label{tab:tecnicas}\\
 \toprule
 ID & Rol y técnica & Información buscada y justificación & Instrumento \\
 \midrule
+\endfirsthead
+\toprule
+ID & Rol y técnica & Información buscada y justificación & Instrumento \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
 
 P1 & Comité de crédito. Entrevista semiestructurada.
 & Identificar qué información utiliza para resolver una solicitud,
@@ -548,9 +566,8 @@ casos o documentos concretos que revisar, de acuerdo con la
 participación puntual del rol.
 & Guion de entrevista, con preguntas sobre documentos y excepciones. \\
 
-\bottomrule
-\end{tabularx}
-\end{table}
+\end{longtable}
+\endgroup
 
 \subsection{Cronograma de sesiones}
 
@@ -562,20 +579,19 @@ partes interesadas.
 
 \begingroup
 \small
-\begin{longtable}{@{}p{0.12\textwidth}p{0.19\textwidth}
-                      p{0.20\textwidth}p{0.32\textwidth}
-                      p{0.08\textwidth}@{}}
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{@{}L{.12}L{.19}L{.20}L{.30}L{.10}@{}}
 \caption{Cronograma propuesto de sesiones de elicitación}
 \label{tab:sesiones}\\
 \toprule
-Sesión y duración & Rol convocado & Técnica e instrumento
-& Objetivo de la sesión & Conduce \\
+Sesión / duración & Rol convocado & Técnica e instrumento
+& Objetivo de la sesión & A cargo \\
 \midrule
 \endfirsthead
 
 \toprule
-Sesión y duración & Rol convocado & Técnica e instrumento
-& Objetivo de la sesión & Conduce \\
+Sesión / duración & Rol convocado & Técnica e instrumento
+& Objetivo de la sesión & A cargo \\
 \midrule
 \endhead
 
@@ -763,8 +779,8 @@ convocados.
 
 \begingroup
 \small
-\begin{longtable}{@{}p{0.09\textwidth}p{0.39\textwidth}
-                      p{0.14\textwidth}p{0.28\textwidth}@{}}
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{@{}L{.09}L{.39}L{.14}L{.28}@{}}
 \caption{Cronograma del proyecto SGMC hasta la semana 17}
 \label{tab:proyecto}\\
 \toprule
@@ -929,15 +945,21 @@ material que se revisará. Jonathan coordinará el consentimiento
 y el registro de la sesión. Freddy preparará los diagramas o casos
 cuando la revisión trate sobre el alcance y los intercambios del SGMC.
 
-\begin{table}[H]
-\centering
-\caption{Plan de comunicación con la organización}
-\label{tab:comunicacion}
+\begingroup
 \small
-\begin{tabularx}{\linewidth}{@{}p{0.26\linewidth}YY@{}}
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{@{}L{.24}L{.33}L{.37}@{}}
+\caption{Plan de comunicación con la organización}\label{tab:comunicacion}\\
 \toprule
 Destinatarios & Momento y canal propuestos & Propósito y registro \\
 \midrule
+\endfirsthead
+\toprule
+Destinatarios & Momento y canal propuestos & Propósito y registro \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
 
 Comité de crédito, Tesorería y Analista de crédito
 & Sesiones de trabajo coordinadas por correo institucional en las
@@ -968,9 +990,8 @@ sus condiciones o los documentos que la respaldan.
 & Registrar dudas y criterios sobre la garantía. Remitir a
 revisión jurídica los casos que requieran pronunciamiento. \\
 
-\bottomrule
-\end{tabularx}
-\end{table}
+\end{longtable}
+\endgroup
 
 Después de cada sesión, el equipo registrará la fecha, los roles
 participantes, los acuerdos, los asuntos pendientes y el responsable
@@ -984,18 +1005,25 @@ institucional privada.
 La tabla~\ref{tab:riesgos} presenta los riesgos identificados a partir
 del diagrama de contexto y de la matriz poder--interés. La probabilidad
 y el impacto son estimaciones cualitativas preliminares, sujetas a
-revisión durante la elicitación. Los responsables son integrantes del
+revisión durante la elicitación. Los responsables (Resp.) son integrantes del
 equipo y las áreas mencionadas en las respuestas participan en la validación.
 
-\begin{table}[htbp]
-\centering
-\caption{Registro de riesgos del proyecto}
-\label{tab:riesgos}
+\begingroup
 \small
-\begin{tabularx}{\linewidth}{@{}lYllYl@{}}
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{@{}L{.045}L{.27}L{.075}L{.08}L{.30}L{.10}@{}}
+\caption{Registro de riesgos del proyecto}\label{tab:riesgos}\\
 \toprule
-ID & Riesgo y efecto & Prob. & Impacto & Respuesta prevista & Responsable \\
+ID & Riesgo y efecto & Prob. & Impacto & Respuesta prevista & Resp. \\
 \midrule
+\endfirsthead
+\toprule
+ID & Riesgo y efecto & Prob. & Impacto & Respuesta prevista & Resp. \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
 R1 & La disponibilidad limitada del Comité de crédito o de Tesorería
 puede retrasar la validación de las resoluciones y los desembolsos.
 & Media & Alto
@@ -1053,9 +1081,9 @@ próxima cuota.
 & Revisar la tabla con solicitantes o beneficiarios y validar con el
 gestor de cobranza en qué estados corresponde enviar recordatorios.
 & Jonathan \\
-\bottomrule
-\end{tabularx}
-\end{table}
+
+\end{longtable}
+\endgroup
 \paragraph{Seguimiento de riesgos.}
 Rochina Freddy revisará el registro con el equipo en la reunión semanal y
 después de cualquier cambio en el alcance, el acceso a evidencias
