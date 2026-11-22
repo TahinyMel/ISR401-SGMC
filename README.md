@@ -59,20 +59,6 @@ El PDF se genera en `PFC/E1/main.pdf`. BibTeX procesa la bibliografía y las dos
 
 
 
-
-## Estructura del documento E1
-
-| Contenido | Qué debe quedar documentado |
-| --- | --- |
-| Organización real | Identificar una organización de Quevedo o Los Ríos y el problema abordable con software, acordado con ella. Respaldarlo con la carta firmada por su responsable y el registro del primer contacto. |
-| Visión y alcance | Incluir la declaración de visión, al menos tres objetivos de negocio medibles, lo incluido y excluido del alcance y las restricciones conocidas. |
-| Partes interesadas | Identificar al menos ocho roles sin nombres personales. Registrar interés, influencia, disponibilidad y estrategia de participación por rol. Presentar la matriz poder–interés. |
-| Contexto | Presentar el diagrama de contexto con el límite del sistema y la tabla de las ocho perspectivas del sílabo con hallazgos de la organización real. |
-| Plan de elicitación | Indicar qué técnica se aplicará a cada parte interesada y justificarla según la fuente y el tipo de conocimiento. Incluir el cronograma de sesiones y vincular técnicas, instrumentos y objetivos. |
-| Ética y datos | Incluir el modelo de consentimiento informado y el procedimiento de anonimización y custodia de evidencias. |
-| Gestión del proyecto | Definir los roles del equipo, el cronograma hasta la semana 17, el plan de comunicación con la organización y el registro de riesgos específicos. |
-| Referencias e IA | Citar al menos cinco referencias IEEE verificables (normas, libros o artículos indexados), incluidas al menos dos de los últimos cinco años. Verificar sus datos y citarlas donde se usan. Declarar expresamente el no uso de IA o, si se usó como apoyo, registrar herramienta, versión, propósito y cómo se verificó lo obtenido. |
-
 ## Instrumentos
 
 Instrumentos de elicitación en el repositorio:
