@@ -13,9 +13,9 @@ Ingeniería de Requerimientos (ISR-401) · 4.º nivel, paralelo B · Unidad 2 ·
 
 | Integrante | Nombre y apellidos | Rol en el proyecto | Aportes verificables (archivos, secciones o artefactos) |
 | --- | --- | --- | --- |
-| 1 | CHAVARRIA CUENCA TAHINY MEL | [PENDIENTE] | [PENDIENTE] |
-| 2 | RIVERA SUAREZ JONATHAN JAVIER | Modelado y partes interesadas | Diagrama de contexto y matriz poder–interés (modelos/, figuras/); secciones/partes_interesadas.tex y secciones/contexto.tex; cuestionario (instrumentos/Cuestionario/) |
-| 3 | ROCHINA ROCHINA FREDDY DAVID | [PENDIENTE] | [PENDIENTE] |
+| 1 | CHAVARRIA CUENCA TAHINY MEL | Coordinación y enlace con la organización | [Visión y alcance](https://github.com/TahinyMel/ISR401-SGMC/commit/4031c3b), [cronograma hasta la semana 17](https://github.com/TahinyMel/ISR401-SGMC/commit/72106e1), [registro de riesgos](https://github.com/TahinyMel/ISR401-SGMC/commit/f66ea1b) e [instrucciones de compilación](https://github.com/TahinyMel/ISR401-SGMC/commit/cab5c85). |
+| 2 | RIVERA SUAREZ JONATHAN JAVIER | Análisis de partes interesadas y modelado | [Diagrama de contexto](PFC/E1/modelos/diagrama_contexto.puml), [matriz poder–interés](PFC/E1/modelos/matriz_poder_interes.puml), [sección de contexto](PFC/E1/secciones/contexto.tex), [sección de partes interesadas](PFC/E1/secciones/partes_interesadas.tex) y [cuestionario para solicitantes](PFC/E1/instrumentos/Cuestionario/cuestionario_solicitantes.md). |
+| 3 | ROCHINA ROCHINA FREDDY DAVID | Planificación de la elicitación y custodia de evidencias | Responsable de coordinar las sesiones y custodiar las evidencias según el [informe E1](PFC/E1/main.tex). Aportes individuales pendientes de vincular con un archivo, commit o registro de sesión que acredite su participación. |
 
 
 ## Índice de carpetas y archivos
