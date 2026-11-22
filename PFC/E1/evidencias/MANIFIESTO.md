@@ -4,5 +4,5 @@ La carpeta [entrevista/](entrevista/) contiene la documentación pública de la 
 
 | Evidencia | Nombre del archivo original | Fecha | Duración | SHA-256 |
 | --- | --- | --- | --- | --- |
-| Carta de aceptación firmada | Pendiente | Pendiente | No aplica | Pendiente |
-| Registro del primer contacto | Pendiente | Pendiente | Según el formato | Pendiente |
+| Consentimiento informado firmado | Pendiente | Pendiente | No aplica | Pendiente |
+| Video de entrevista | Pendiente | Pendiente | Según el formato | Pendiente |
