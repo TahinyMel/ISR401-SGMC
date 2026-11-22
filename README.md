@@ -79,9 +79,9 @@ Ubicar los tres instrumentos completos en `PFC/E1/instrumentos/`. Deben poder ap
 
 | Instrumento | Archivo |
 | --- | --- |
-| Guion de entrevista | [PENDIENTE: ruta real] |
-| Cuestionario | [PENDIENTE: ruta real] |
-| Guía de observación o de taller | [PENDIENTE: modalidad elegida y ruta real] |
+| Guion de entrevista | [`PFC/E1/instrumentos/Entrevista/Preguntas/Preguntas_EntrevistaSemiestructurada.docx`](PFC/E1/instrumentos/Entrevista/Preguntas/Preguntas_EntrevistaSemiestructurada.docx) |
+| Cuestionario | [`PFC/E1/instrumentos/Cuestionario/cuestionario_solicitantes.md`](PFC/E1/instrumentos/Cuestionario/cuestionario_solicitantes.md) |
+| Guía de observación | [`PFC/E1/instrumentos/Guía de observación/Guia_observacion_entrevista_SGMC.docx`](PFC/E1/instrumentos/Gu%C3%ADa%20de%20observaci%C3%B3n/Guia_observacion_entrevista_SGMC.docx) |
 
 ## Modelos
 
