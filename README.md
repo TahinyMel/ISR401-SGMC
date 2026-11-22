@@ -56,7 +56,7 @@ pdflatex -halt-on-error main.tex
 
 El PDF se genera en `PFC/E1/main.pdf`. BibTeX procesa la bibliografía y las dos últimas pasadas de pdfLaTeX resuelven las citas y las referencias cruzadas.
 
-4. Probar la secuencia desde un clon limpio. Comprobar que el PDF se genera sin desbordes ni referencias sin resolver (`??`) y que las figuras y tablas están numeradas y citadas en el texto.
+
 
 
 
@@ -75,7 +75,7 @@ El PDF se genera en `PFC/E1/main.pdf`. BibTeX procesa la bibliografía y las dos
 
 ## Instrumentos
 
-Ubicar los tres instrumentos completos en `PFC/E1/instrumentos/`. Deben poder aplicarse y guardar coherencia con los objetivos y el plan de elicitación.
+Instrumentos de elicitación en el repositorio:
 
 | Instrumento | Archivo |
 | --- | --- |
@@ -85,7 +85,7 @@ Ubicar los tres instrumentos completos en `PFC/E1/instrumentos/`. Deben poder ap
 
 ## Modelos
 
-Guardar las fuentes editables en `PFC/E1/modelos/` en el formato utilizado (`.qea`, `.mdj`, `.puml` o `.drawio`) y sus exportaciones en `PFC/E1/figuras/`.
+Modelos en el repositorio:
 
 | Modelo | Fuente editable | Figura exportada |
 | --- | --- | --- |
@@ -94,12 +94,12 @@ Guardar las fuentes editables en `PFC/E1/modelos/` en el formato utilizado (`.qe
 
 ## Manifiesto de evidencias
 
-Completar `PFC/E1/evidencias/MANIFIESTO.md` con al menos dos evidencias. Las filas siguientes indican los registros mínimos y se completan con los datos del archivo original.
+Registros de evidencias en el repositorio:
 
 | Evidencia | Nombre de archivo | Fecha | Duración | Huella SHA-256 |
 | --- | --- | --- | --- | --- |
 | Carta de aceptación firmada | [PENDIENTE] | [PENDIENTE] | [PENDIENTE: duración o «No aplica»] | [PENDIENTE: huella del archivo] |
 | Registro del primer contacto | [PENDIENTE] | [PENDIENTE] | [PENDIENTE: duración o «No aplica»] | [PENDIENTE: huella del archivo] |
 
-Custodiar la carta firmada y las evidencias privadas en una carpeta institucional de una cuenta `@uteq.edu.ec`, compartida con el docente. Publicar solo las evidencias anonimizadas y el manifiesto. Mantener en la carpeta privada los datos personales de terceros, incluidas cédulas, teléfonos, correos personales, audios, videos y consentimientos firmados.
+
 
