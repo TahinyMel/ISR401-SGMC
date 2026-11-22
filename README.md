@@ -45,9 +45,26 @@ Ingeniería de Requerimientos (ISR-401) · 4.º nivel, paralelo B · Unidad 2 ·
 2. Instalar las dependencias indicadas y entrar en `PFC/E1` con `cd PFC/E1`.
 3. Sustituir el bloque siguiente por los comandos exactos en el orden en que se ejecutan desde esa carpeta. Incluir el paso de bibliografía y las pasadas adicionales cuando correspondan al flujo elegido.
 
-   ```text
-   [PENDIENTE: secuencia de comandos comprobada que compila main.tex y genera main.pdf]
-   ```
+   ### Compilar en Overleaf
+
+1. Descarga el repositorio `TahinyMel/ISR401-SGMC` e importa el contenido de `PFC/E1/` al proyecto de Overleaf. Conserva `main.tex`, `referencias.bib` y la carpeta `figuras/` al mismo nivel.
+2. Selecciona `main.tex` como documento principal y configura `pdfLaTeX` con TeX Live 2026.
+3. Pulsa **Recompile** y descarga el PDF generado como `main.pdf`.
+
+### Compilar desde un clon local
+
+Con TeX Live 2026 instalado, ejecuta en este orden:
+
+```sh
+git clone https://github.com/TahinyMel/ISR401-SGMC.git
+cd ISR401-SGMC/PFC/E1
+pdflatex -halt-on-error main.tex
+bibtex main
+pdflatex -halt-on-error main.tex
+pdflatex -halt-on-error main.tex
+```
+
+El PDF se genera en `PFC/E1/main.pdf`. BibTeX procesa la bibliografía y las dos últimas pasadas de pdfLaTeX resuelven las citas y las referencias cruzadas.
 
 4. Probar la secuencia desde un clon limpio. Comprobar que el PDF se genera sin desbordes ni referencias sin resolver (`??`) y que las figuras y tablas están numeradas y citadas en el texto.
 
