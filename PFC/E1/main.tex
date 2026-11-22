@@ -9,6 +9,7 @@
 
 \usepackage{float}
 \usepackage{longtable}
+\usepackage{pdfpages}
 \usepackage[hidelinks,hypertexnames=false]{hyperref}
 
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1\linewidth}}
@@ -738,16 +739,9 @@ registrará la nueva fecha y el punto que queda pendiente de confirmar.
 \section{Ética y tratamiento de datos}
 
 \subsection{Modelo de consentimiento informado}
-\textbf{Propósito.} La sesión académica busca comprender el proceso de microcrédito para definir el alcance del SGMC. Se recogerán notas sobre las actividades y decisiones del rol.
-
-\textbf{Participación.} La participación es voluntaria. Se puede omitir preguntas o finalizar la sesión. El informe identificará las respuestas por código de rol. Se solicitará autorización específica para grabar.
-
-\textbf{Custodia.} Los registros identificables se guardarán en la carpeta institucional privada. \pendiente{completar y comunicar el responsable, el canal de contacto y el plazo de conservación antes de aplicar el formulario}.
-
-\textbf{Acepta participar:} Sí / No. \quad
-\textbf{Autoriza grabación:} Sí / No / No aplica.
-
-\textbf{Fecha y firma:} \rule{5cm}{0.4pt}.
+El anexo~\ref{anexo:consentimiento} presenta una copia en blanco del
+modelo de consentimiento utilizado para la entrevista del SGMC.
+La versión firmada se conserva en la carpeta institucional privada.
 
 \subsection{Anonimización y custodia}
 El tratamiento de datos se enmarca en la legislación ecuatoriana y su reglamento~\cite{lopdp,reg904}. Para gestionar riesgos sobre la confidencialidad e integridad de las evidencias se toma como referencia ISO/IEC 27001. Para delimitar el acceso a los registros privados se considera la orientación sobre controles de ISO/IEC 27002~\cite{iso27001,iso27002}.
@@ -1142,5 +1136,13 @@ Se utilizó ChatGPT mediante Codex como apoyo para preparar la plantilla LaTeX, 
 
 \bibliographystyle{IEEEtran}
 \bibliography{referencias}
+
+\clearpage
+\appendix
+\includepdf[
+  pages=-,
+  pagecommand={},
+  addtotoc={1,section,1,Modelo de consentimiento informado,anexo:consentimiento}
+]{consentimiento_modelo.pdf}
 
 \end{document}

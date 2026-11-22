@@ -37,7 +37,7 @@ Ingeniería de Requerimientos (ISR-401) · 4.º nivel, paralelo B · Unidad 2 ·
 
    ### Compilar en Overleaf
 
-1. Descarga el repositorio `TahinyMel/ISR401-SGMC` e importa el contenido de `PFC/E1/` al proyecto de Overleaf. Conserva `main.tex`, `referencias.bib` y la carpeta `figuras/` al mismo nivel.
+1. Descarga el repositorio `TahinyMel/ISR401-SGMC` e importa el contenido de `PFC/E1/` al proyecto de Overleaf. Conserva `main.tex`, `referencias.bib`, `consentimiento_modelo.pdf` y la carpeta `figuras/` al mismo nivel.
 2. Selecciona `main.tex` como documento principal y configura `pdfLaTeX` con TeX Live 2026.
 3. Pulsa **Recompile** y descarga el PDF generado como `main.pdf`.
 
@@ -55,6 +55,8 @@ pdflatex -halt-on-error main.tex
 ```
 
 El PDF se genera en `PFC/E1/main.pdf`. BibTeX procesa la bibliografía y las dos últimas pasadas de pdfLaTeX resuelven las citas y las referencias cruzadas.
+
+El anexo de consentimiento se incorpora mediante el paquete [pdfpages](https://ctan.org/pkg/pdfpages). El archivo [consentimiento_modelo.pdf](PFC/E1/consentimiento_modelo.pdf) debe quedar junto a main.tex.
 
 
 
