@@ -33,17 +33,7 @@ Ingeniería de Requerimientos (ISR-401) · 4.º nivel, paralelo B · Unidad 2 ·
 
 ## Compilación reproducible
 
-| Dato | Configuración de E1 |
-| --- | --- |
-| Archivo principal | `PFC/E1/main.tex` |
-| Salida | `PFC/E1/main.pdf` |
-| Compilador y versión | pdfLaTeX en Overleaf (TeX Live 2026). |
-| Distribución y paquetes | TeX Live en Overleaf. Paquetes: `fontenc`, `babel` (español), `geometry`, `graphicx`, `booktabs`, `tabularx`, `float`, `longtable` y `hyperref`. |
-| Bibliografía | `PFC/E1/referencias.bib`, procesada con BibTeX y el estilo `IEEEtran`. |
-| Recursos locales | Rutas relativas a `PFC/E1/`: `figuras/diagrama_contexto.png`, `figuras/matriz_poder_interes.png` y `referencias.bib`. |
-1. Clonar el repositorio público con `git clone <URL_COMPLETA_DEL_REPOSITORIO>` y abrir la carpeta clonada.
-2. Instalar las dependencias indicadas y entrar en `PFC/E1` con `cd PFC/E1`.
-3. Sustituir el bloque siguiente por los comandos exactos en el orden en que se ejecutan desde esa carpeta. Incluir el paso de bibliografía y las pasadas adicionales cuando correspondan al flujo elegido.
+
 
    ### Compilar en Overleaf
 
