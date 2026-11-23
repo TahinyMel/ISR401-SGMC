@@ -86,8 +86,9 @@ Registros de evidencias en el repositorio:
 
 | Evidencia | Nombre de archivo | Fecha | Duración | Huella SHA-256 |
 | --- | --- | --- | --- | --- |
-| Consentimiento informado firmado | [PENDIENTE] | [PENDIENTE] | No aplica | [PENDIENTE: huella del archivo] |
-| Registro de entrevista | [PENDIENTE] | [PENDIENTE] | [PENDIENTE: duración o «No aplica»] | [PENDIENTE: huella del archivo] |
+| Consentimiento informado firmado | 2026-11-22_RepresentanteLegal_ENTR-01_Consentimiento.pdf | 22-11-2016 | No aplica | 3e5abeb88d4b55a962d3dedc6e87875b6e7ecaceff5a91b405717b0bb7538fe6
+
+
 
 
 
