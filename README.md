@@ -86,8 +86,8 @@ Registros de evidencias en el repositorio:
 
 | Evidencia | Nombre de archivo | Fecha | Duración | Huella SHA-256 |
 | --- | --- | --- | --- | --- |
-| Carta de aceptación firmada | [PENDIENTE] | [PENDIENTE] | [PENDIENTE: duración o «No aplica»] | [PENDIENTE: huella del archivo] |
-| Registro del primer contacto | [PENDIENTE] | [PENDIENTE] | [PENDIENTE: duración o «No aplica»] | [PENDIENTE: huella del archivo] |
+| Consentimiento informado firmado | [PENDIENTE] | [PENDIENTE] | No aplica | [PENDIENTE: huella del archivo] |
+| Registro de entrevista | [PENDIENTE] | [PENDIENTE] | [PENDIENTE: duración o «No aplica»] | [PENDIENTE: huella del archivo] |
 
 
 
